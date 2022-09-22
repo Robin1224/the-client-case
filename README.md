@@ -10,8 +10,6 @@ Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagi
 
   * [Beschrijving](#beschrijving)
   * [Kenmerken](#kenmerken)
-<!--   * [Installatie](#installatie) -->
-<!--   * [Gebruik](#gebruik) -->
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
