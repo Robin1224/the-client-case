@@ -2,8 +2,18 @@ _Voorbeeld Readme voor deze leertaak:_
 
 
 # Contactpagina FDND 
+<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagina met de contactgegevens zoals een email-adres en telefoonnummer, en een routebeschrijving naar het leslokaal. 
+
+## Inhoudsopgave
+
+  * [Beschrijving](#beschrijving)
+  * [Kenmerken](#kenmerken)
+<!--   * [Installatie](#installatie) -->
+<!--   * [Gebruik](#gebruik) -->
+  * [Bronnen](#bronnen)
+  * [Licentie](#licentie)
 
 ## Beschrijving
 
@@ -15,11 +25,11 @@ In de beschrijving staan links naar de twee onderdelen van de pagina: _contactge
 
 Hier staat de website: https://koopreynders.github.io/the-client-case/
 
-### contactgegevens
+### Contactgegevens
 
 In het onderdeel _contactgegevens_ staat het telefoonnummer en email-adres van het onderwijsbureau. 
 
-### routebeschrijving
+### Routebeschrijving
 
 In het onderdeel _routebeschrijving_ staan de adresgegevens van de opleiding en wordt met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het lokaal kan komen. Als iemand voor het eerst in het gebouw de Leeuwenburg komt is dat nogal een doolhof. Daarom is de routebeschrijving met behulp van foto's stap-voor-stap uitgelegd. Een bezoeker kan met een mobiel in de hand in 9 stappen bij het lokaal komen.Bij elke foto staat een duidelijke beschrijving en is te zien welke stap van de 9 het is. 
 
@@ -44,7 +54,7 @@ Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) 
       <link rel="stylesheet" href="styles/local.css">
   ```
 
-  In de `<head>` wordt een extern font geladen: De Open Sans 
+  In de `<head>` wordt een extern font geladen: De Open Sans
   
   ```html
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&amp;display=swap" rel="stylesheet">
@@ -109,6 +119,19 @@ Het verplichte HVA en FDND logo worden 70% kleiner getoond en links gepositionee
       }
 ```
 
+## Bronnen 
+
+How to Section Your HTML https://css-tricks.com/how-to-section-your-html/
+
+Viewport meta tag https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+
+Media query @Medai width https://developer.mozilla.org/en-US/docs/Web/CSS/@media/width
+
+Scroll Behavior Smooth  https://css-tricks.com/almanac/properties/s/scroll-behavior/
+
+Google Font 'Open Sans https://fonts.googleapis.com/css2?family=Open+Sans
+
+FDND Global stylesheet https://styleguide.fdnd.nl/fdnd.css
 
 
   
