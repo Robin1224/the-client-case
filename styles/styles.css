@@ -1,1 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 2rem;  
+}
+
+header {
+  width: auto;
+  padding: 2rem;
+  border-bottom: 1px solid #ccc;
+}
 
