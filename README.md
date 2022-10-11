@@ -31,7 +31,8 @@ In het onderdeel _contactgegevens_ staat het telefoonnummer en email-adres van h
 
 In het onderdeel _routebeschrijving_ staan de adresgegevens van de opleiding en wordt met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het lokaal kan komen. Als iemand voor het eerst in het gebouw de Leeuwenburg komt is dat nogal een doolhof. Daarom is de routebeschrijving met behulp van foto's stap-voor-stap uitgelegd. Een bezoeker kan met een mobiel in de hand in 9 stappen bij het lokaal komen.Bij elke foto staat een duidelijke beschrijving en is te zien welke stap van de 9 het is. 
 
-![shotsnapp-1634298030 685](https://user-images.githubusercontent.com/1391509/137481669-51c22e21-7b42-404f-b5ba-8d4f43b52d3f.png)
+![image](https://user-images.githubusercontent.com/1391509/195097814-cd3b3468-815e-478d-ada3-464c36a5ca68.png)
+
 
 ## Kenmerken
 
@@ -121,7 +122,7 @@ How to Section Your HTML https://css-tricks.com/how-to-section-your-html/
 
 Viewport meta tag https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
 
-Media query @Medai width https://developer.mozilla.org/en-US/docs/Web/CSS/@media/width
+Media query @Media width https://developer.mozilla.org/en-US/docs/Web/CSS/@media/width
 
 Scroll Behavior Smooth  https://css-tricks.com/almanac/properties/s/scroll-behavior/
 
