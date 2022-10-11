@@ -15,6 +15,7 @@ Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagi
 
 ## Beschrijving
 
+User Story:
 
 > Als (nieuwe) student, collega en opdrachtgever willen wij contactgegevens van FDND eenvoudig kunnen raadplegen om contact op te kunnen nemen met de organisatie. 
 
