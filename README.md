@@ -17,7 +17,7 @@ Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagi
 
 User Story:
 
-> Als (nieuwe) student, collega en opdrachtgever willen wij contactgegevens van FDND eenvoudig kunnen raadplegen om contact op te kunnen nemen met de organisatie. 
+> Als (nieuwe) student, collega of opdrachtgever wil ik contactgegevens van FDND eenvoudig kunnen raadplegen om contact op te kunnen nemen met de organisatie. 
 
 <img width="887" alt="FDND contactpagina" src="https://user-images.githubusercontent.com/1391509/137478299-c46c4903-7db8-4305-a072-8ba4c92e31fd.png">
 
