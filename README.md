@@ -42,8 +42,6 @@ De website is gebouwd met [HTML](#html) en [CSS](#CSS).
 Hieronder staat de basis structuur uitgelegd met de setting in de [HEAD](#HEAD) en opmaak van de [BODY](#BODY):
 
 #### HEAD
-  In de head staan de meta-settings zoals 
-  `<meta name="viewport" content="width=device-width,initial-scale=1">`
   
   In de `<head>` worden twee CSS file geladen. De algemene styleguide met basis settings en kleuren. 
   En een local CSS file met specifieke styling voor deze pagina. 
