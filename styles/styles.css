@@ -1,15 +1,124 @@
+/*! Fonts */
+
+@font-face {
+  font-family: 'avenir_lt_std95_black';
+  src: url('../assets/Fonts/Avenir/avenirltstd-black-webfont.woff2') format('woff2'),
+       url('../assets/Fonts/Avenir/avenirltstd-black-webfont.woff') format('woff');
+  font-weight: heavy;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avenir_lt_std45_book';
+  src: url('../assets/Fonts/Avenir/avenirltstd-book-webfont.woff2') format('woff2'),
+       url('../assets/Fonts/Avenir/avenirltstd-book-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'avenir_lt_std55_roman';
+  src: url('../assets/Fonts/Avenir/avenirltstd-roman-webfont.woff2') format('woff2'),
+       url('../assets/Fonts/Avenir/avenirltstd-roman-webfont.woff') format('woff');
+  font-weight: light;
+  font-style: normal;
+}
+
+/* Main css */
+
+:root {
+  /* Variables */
+  --nav-hover-effect-height: 0.2rem;
+  --nav-edge-padding: 1rem;
+}
+
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-  padding: 2rem;  
+  padding: 2rem;
+  font-family: 'avenir_lt_std45_book';
 }
 
 header {
   width: auto;
-  padding: 2rem;
+  display: flex;
+  padding-bottom: 2rem;
   border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+}
+
+/* Rules for the Oba logo*/
+header>img:nth-of-type(1) {
+  width: 100%;
+  max-width: 6rem;
+}
+
+/* Rules for the user icon*/
+header>img:nth-of-type(2) {
+  width: 100%;
+  max-width: 3rem;
+}
+
+nav {
+  border-bottom: 1px solid #ccc;
+  margin-left: calc(-2rem + var(--nav-edge-padding));
+  margin-right: calc(-2rem + var(--nav-edge-padding));
+}
+
+nav>ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+/* Rules for the nav links*/
+nav>ul>li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  /* Fix for proper position with hover effect */
+  margin-top: var(--nav-hover-effect-height);
+}
+
+nav>ul>li>a {
+  align-content: center;
+  text-decoration: none;
+  color: #000;
+  padding: 0.5rem
+}
+
+nav>ul>li>a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #000;
+  transition: width .3s;
+  margin-left: -0.5rem;
+
+  /* Height of hover effect: */
+  margin-bottom: calc(-1 * var(--nav-hover-effect-height));
+  margin-top: var(--nav-hover-effect-height);
+}
+
+nav>ul>li>a:hover::after {
+  display: block;
+  height: 2px;
+  width: calc(100% + 1rem);
+  background-color: #000;
+  content: '';
+}
+
+/* Rules for the navbar home icon */
+nav>ul>li>a>img {
+  width: 100%;
+  max-width: 1.7rem;
 }
 
