@@ -31,6 +31,8 @@
   --nav-hover-effect-height: 0.2rem;
   --nav-edge-padding: 1rem;
   --cards-width: 5rem;
+
+  --grijs: rgb(150,150,150)
 }
 
 * {
@@ -49,7 +51,7 @@ header {
   width: auto;
   display: flex;
   padding-bottom: 2rem;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--grijs);
   justify-content: space-between;
 }
 
@@ -79,7 +81,7 @@ header>div>img:nth-of-type(2) {
 }
 
 nav {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid var(--grijs);
   margin-left: calc(-2rem + var(--nav-edge-padding));
   margin-right: calc(-2rem + var(--nav-edge-padding));
 }
@@ -161,8 +163,18 @@ section>ul {
   justify-content: flex-start;
   overflow-x: scroll;
   overflow-y: hidden;
-  z-index: 0
+  z-index: 0;
 }
+
+
+  /* Hiding the scrollbar (scrapped) */
+  /* scrollbar-width: none;
+}
+
+section>ul::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+} */
 
 /* Rules for the gradient effect (scrapped) */
 /* section>ul::before {
@@ -179,12 +191,13 @@ section>ul {
 section>ul>li {
   display: flex;
   padding: 2rem;
-  height: 24rem;
-  background-color: #ccc;
+  height: 27rem;
+  background-color: var(--grijs);
   flex-direction: column;
   align-items: flex-start;
   margin-right: 1rem;
   border-radius: 1rem;
+  max-width: 15rem;
 }
 
 /* Rules for the book cover */
@@ -209,4 +222,18 @@ section>ul>li>h4 {
   font-family: 'avenir_lt_std55_roman';
   font-size: 1rem;
   margin-bottom: 0.5rem;
+}
+
+/* Rules for the footer */
+footer {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border-top: 1px solid var(--grijs);
+  margin-top: 2rem;
+}
+
+footer>p {
+  display: block;
+  padding-top: 2rem;
 }
