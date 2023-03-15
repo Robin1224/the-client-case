@@ -4,7 +4,7 @@ _Voorbeeld Readme voor deze leertaak:_
 # Contactpagina FDND 
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
-Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagina met de contactgegevens zoals een email-adres en telefoonnummer, en een routebeschrijving naar het leslokaal. 
+Dit is een redesign van de contact pagina van de FDND website. 
 
 ## Inhoudsopgave
 
@@ -16,7 +16,7 @@ Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagi
 
 ## Beschrijving
 
-Dit is een redesign van de contact pagina van de FDND website. 
+Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagina met de contactgegevens zoals een email-adres en telefoonnummer, en een routebeschrijving naar het leslokaal. 
 
 Hier staat de website: https://koopreynders.github.io/the-client-case/
 
