@@ -18,6 +18,10 @@ Dit is een redesign van de contact pagina van de FDND website.
 
 Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagina met de contactgegevens zoals een email-adres en telefoonnummer, en een routebeschrijving naar het leslokaal. 
 
+Met behulp van foto's getoond hoe een bezoeker vanaf station Amstel bij het FDND lokaal kan komen. 
+
+De pagina is responsive en is Mobile first ontworpen en gemaakt. 
+
 Hier staat de website: https://koopreynders.github.io/the-client-case/
 
 User Story:
