@@ -9,7 +9,7 @@ Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagi
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
-  * [Gebruik[(#gebruik)
+  * [Gebruik](#gebruik)
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
