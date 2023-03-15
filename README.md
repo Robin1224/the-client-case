@@ -9,11 +9,16 @@ Voor (nieuwe) studenten, colllega's en opdrachtgevers heeft FDND een contactpagi
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
+  * [Gebruik[(#gebruik)
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
 ## Beschrijving
+
+Dit is een redesign van de contact pagina van de FDND website. 
+
+Hier staat de website: https://koopreynders.github.io/the-client-case/
 
 User Story:
 
@@ -21,11 +26,13 @@ User Story:
 
 <img width="887" alt="FDND contactpagina" src="https://user-images.githubusercontent.com/1391509/137478299-c46c4903-7db8-4305-a072-8ba4c92e31fd.png">
 
+
+## Gebruik
+
 Op de pagina staat een duidelijk header met een titel en beschrijving: "Hier staan de contactgegevens en routebeschrijving van de opleiding Frontend Design & Development (FDND). FDND is een HBO Ad opleiding aan de Hogeschool van Amsterdam."
 
 In de beschrijving staan links naar de twee onderdelen van de pagina: _contactgegevens_ en _routebeschrijving_. Als je op de link klikt ga je met een animatie naar dat onderdeel van de pagina. Of je kan scrollen. 
 
-Hier staat de website: https://koopreynders.github.io/the-client-case/
 
 ### Contactgegevens
 
